@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Atm.cs" />
     <Compile Include="Logger.cs" />
+    <Compile Include="Login.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

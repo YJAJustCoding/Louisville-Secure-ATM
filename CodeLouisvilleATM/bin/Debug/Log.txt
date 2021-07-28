@@ -22,3 +22,11 @@ Log Entry : 12:59:19 PM Wednesday, July 28, 2021
 Log Entry : 12:59:34 PM Wednesday, July 28, 2021
   :Not a valid Deposit input please input a positive Integer
 -----
+
+Log Entry : 5:36:06 PM Wednesday, July 28, 2021
+  :Not a valid Investment amount, please input a positive Integer
+-----
+
+Log Entry : 5:36:15 PM Wednesday, July 28, 2021
+  :Not a valid Investment amount, please input a positive Integer
+-----

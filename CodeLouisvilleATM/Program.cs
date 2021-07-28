@@ -27,9 +27,10 @@ using System.Text;
                         Console.WriteLine("2. Withdraw from ATM");
                         Console.WriteLine("3. Deposit Into ATM");
                         Console.WriteLine("4. Invest in the Stock market from your ATM!");
-                        Console.WriteLine("5. Close ATM");
+                        Console.WriteLine("5. Invest all your money");
+                        Console.WriteLine("6. Close ATM");
 
-                      string menuChoice = Console.ReadLine();
+                string menuChoice = Console.ReadLine();
 
                 switch (menuChoice)
                 {
@@ -84,8 +85,11 @@ using System.Text;
                             Log.Log("Not a valid Investment amount, please input a positive Integer");
                         }
                                 break;
-                            
-                            case "5":
+                    case "5":
+                        atm.InvestAllMoneyInStockMarket();
+                        break;
+
+                    case "6":
                                 menu = false;
                                 break;
                             default:

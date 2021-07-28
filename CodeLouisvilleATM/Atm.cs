@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Media;
 
 namespace CodeLouisvilleATM
 {
     public class Atm
     {
+        public SoundPlayer _soundPlayer;
         public int Balance { get; set; }
 
         public Atm(int balance)
@@ -15,6 +17,17 @@ namespace CodeLouisvilleATM
             Console.WriteLine($"Your Balance is ${Balance} dollars.");
             return Balance;
         }
+
+        public int InvestAllMoneyInStockMarket()
+        {
+            _soundPlayer = new SoundPlayer("AndItsGone.wav");
+            Balance = 0;
+            _soundPlayer.Play();
+            System.Threading.Thread.Sleep(14000);
+            Console.WriteLine($"and its gone!!!");
+            return Balance;
+        }
+
         public void Withdraw(int value)
         {
             //Allows you to withdraw all your money

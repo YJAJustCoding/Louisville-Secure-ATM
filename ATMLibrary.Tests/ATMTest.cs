@@ -101,6 +101,13 @@ namespace ATMLibrary.Tests
             int balance = test.CheckBalance();
             Assert.NotEqual(501, balance);
         }
-
+        [Fact]
+        public void InvestallMoneyTest()
+        {
+            Atm test = new Atm(500);
+            test.InvestAllMoneyInStockMarketTest();
+            int Balance = test.CheckBalance();
+            Assert.Equal(0, Balance);
+        }
     }
 }

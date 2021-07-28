@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Media;
+using System.IO;
 
 namespace CodeLouisvilleATM
 {
     public class Atm
     {
         public SoundPlayer _soundPlayer;
+
         public int Balance { get; set; }
 
         public Atm(int balance)
@@ -24,6 +26,17 @@ namespace CodeLouisvilleATM
             Balance = 0;
             _soundPlayer.Play();
             System.Threading.Thread.Sleep(14000);
+            Console.WriteLine($"and its gone!!!");
+            return Balance;
+        }
+
+        public int InvestAllMoneyInStockMarketTest()
+        {  
+            //Commented out the soundPlayer to UnitTest it
+            //_soundPlayer = new SoundPlayer("AndItsGone.wav");
+            Balance = 0;
+            //_soundPlayer.Play();
+            //System.Threading.Thread.Sleep(14000);
             Console.WriteLine($"and its gone!!!");
             return Balance;
         }

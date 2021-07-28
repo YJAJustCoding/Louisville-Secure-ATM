@@ -1,0 +1,24 @@
+
+Log Entry : 12:54:35 PM Wednesday, July 28, 2021
+  :Not a valid inpit
+-----
+
+Log Entry : 12:55:11 PM Wednesday, July 28, 2021
+  :Not a valid input please do a positive Integer
+-----
+
+Log Entry : 12:55:57 PM Wednesday, July 28, 2021
+  :Not a valid input please do a positive Integer
+-----
+
+Log Entry : 12:58:56 PM Wednesday, July 28, 2021
+  :Not a valid Withdraw input please input a positive Integer
+-----
+
+Log Entry : 12:59:19 PM Wednesday, July 28, 2021
+  :Not a valid Deposit input please input a positive Integer
+-----
+
+Log Entry : 12:59:34 PM Wednesday, July 28, 2021
+  :Not a valid Deposit input please input a positive Integer
+-----

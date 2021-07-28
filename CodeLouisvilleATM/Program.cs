@@ -30,24 +30,49 @@ using System.Text;
 
                     case "2":
                         Console.WriteLine("How much would you like to withdraw?");
-                              //implement try catch          
+                        try
+                        {
                             int moneyWithdrawn = Convert.ToInt32(Console.ReadLine());
+
+
                             Console.WriteLine($"You withdrew ${moneyWithdrawn}");
                             atm.Withdraw(moneyWithdrawn);
-                            break;
+                        }
+                        catch
+                        {
+                            var Log = new Logger();
+                            Log.Log("Not a valid Withdraw amount, please input a positive Integer");
+                        } 
+                        break;
                             case "3":
                                 Console.WriteLine("How much would you like to deposit?");
-                                //implement try catch
-                                int moneyDeposited = Convert.ToInt32(Console.ReadLine());
-                                Console.WriteLine($"You have deposited ${moneyDeposited}");                              
-                                atm.Deposit(moneyDeposited);
+                        try
+                        {
+                            int moneyDeposited = Convert.ToInt32(Console.ReadLine());
+                            Console.WriteLine($"You have deposited ${moneyDeposited}");
+                            atm.Deposit(moneyDeposited);
+                        }
+                        catch
+                        {
+                            
+                        {
+                            var Log = new Logger();
+                            Log.Log("Not a valid Deposit amount, please input a positive Integer");
+                        }
+                }
                                 break;                        
                             case "4":
                                 Console.WriteLine("How much would you like to Invest?");
-                                //implement try catch
-                                 int moneyInvested = Convert.ToInt32(Console.ReadLine());
-                                Console.WriteLine($"You have Invested ${moneyInvested}");              
-                                atm.StockMarketInvesting(moneyInvested);
+                        try
+                        {
+                            int moneyInvested = Convert.ToInt32(Console.ReadLine());
+                            Console.WriteLine($"You have Invested ${moneyInvested}");
+                            atm.StockMarketInvesting(moneyInvested);
+                        }
+                        catch {
+                            var Log = new Logger();
+                            Log.Log("Not a valid Investment amount, please input a positive Integer");
+                        }
                                 break;
                             
                             case "5":

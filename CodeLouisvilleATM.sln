@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeLouisvilleATM", "CodeLouisvilleATM\CodeLouisvilleATM.csproj", "{6E72CB70-F8A7-4212-ADED-BD02ABD63D0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMLibrary.Tests", "ATMLibrary.Tests\ATMLibrary.Tests.csproj", "{217B82AE-E587-4651-8742-BA5653F12497}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E72CB70-F8A7-4212-ADED-BD02ABD63D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E72CB70-F8A7-4212-ADED-BD02ABD63D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E72CB70-F8A7-4212-ADED-BD02ABD63D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E72CB70-F8A7-4212-ADED-BD02ABD63D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217B82AE-E587-4651-8742-BA5653F12497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217B82AE-E587-4651-8742-BA5653F12497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217B82AE-E587-4651-8742-BA5653F12497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217B82AE-E587-4651-8742-BA5653F12497}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C950EAD-1A61-4869-BCB3-4A06237F96BB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+C:\Users\yjalm\source\repos\CodeLouisvilleATM\CodeLouisvilleATM\bin\Debug\CodeLouisvilleATM.exe.config
+C:\Users\yjalm\source\repos\CodeLouisvilleATM\CodeLouisvilleATM\bin\Debug\CodeLouisvilleATM.exe
+C:\Users\yjalm\source\repos\CodeLouisvilleATM\CodeLouisvilleATM\bin\Debug\CodeLouisvilleATM.pdb
+C:\Users\yjalm\source\repos\CodeLouisvilleATM\CodeLouisvilleATM\obj\Debug\CodeLouisvilleATM.csproj.AssemblyReference.cache
+C:\Users\yjalm\source\repos\CodeLouisvilleATM\CodeLouisvilleATM\obj\Debug\CodeLouisvilleATM.csproj.CoreCompileInputs.cache
+C:\Users\yjalm\source\repos\CodeLouisvilleATM\CodeLouisvilleATM\obj\Debug\CodeLouisvilleATM.exe
+C:\Users\yjalm\source\repos\CodeLouisvilleATM\CodeLouisvilleATM\obj\Debug\CodeLouisvilleATM.pdb

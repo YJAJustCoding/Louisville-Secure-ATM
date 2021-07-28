@@ -7,10 +7,19 @@ using System.Text;
     {
         static void Main(string[] args)
         {
+            //User Login
+            //Login UserLogin = new Login("CodeLou",9999);
+            //bool ValidLogin = true;
+
+
+
+
            //Keeps the menu going while true
             bool menu = true;
             //Initializes the ATM with $1000
             Atm atm = new Atm(1000);
+            
+            //Code Louisville Req 1/4 the Master Loop
                     do 
                     {   // ATM Menu
                         Console.WriteLine("\nWhat would you like to do?");
@@ -31,15 +40,14 @@ using System.Text;
                     case "2":
                         Console.WriteLine("How much would you like to withdraw?");
                         try
-                        {
+                        {  
                             int moneyWithdrawn = Convert.ToInt32(Console.ReadLine());
-
-
                             Console.WriteLine($"You withdrew ${moneyWithdrawn}");
                             atm.Withdraw(moneyWithdrawn);
                         }
                         catch
-                        {
+                        {   
+                            //Code Louisville Req 2/4 the Error logger 
                             var Log = new Logger();
                             Log.Log("Not a valid Withdraw amount, please input a positive Integer");
                         } 
@@ -56,7 +64,8 @@ using System.Text;
                         {
                             
                         {
-                            var Log = new Logger();
+                                //Code Louisville Req 2/4 the Error logger 
+                                var Log = new Logger();
                             Log.Log("Not a valid Deposit amount, please input a positive Integer");
                         }
                 }
@@ -70,6 +79,7 @@ using System.Text;
                             atm.StockMarketInvesting(moneyInvested);
                         }
                         catch {
+                            //Code Louisville Req 2/4 the Error logger 
                             var Log = new Logger();
                             Log.Log("Not a valid Investment amount, please input a positive Integer");
                         }

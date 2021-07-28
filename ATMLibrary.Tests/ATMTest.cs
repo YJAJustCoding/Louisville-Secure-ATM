@@ -9,7 +9,7 @@ using Xunit;
 namespace ATMLibrary.Tests
 {
     public class ATMTest
-    {
+    {//Code Louisville Req 4/4 the unit atleast 3 unit tests
         [Fact]
         public void CheckBalance()
         {

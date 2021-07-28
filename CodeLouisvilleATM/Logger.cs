@@ -7,6 +7,7 @@ namespace CodeLouisvilleATM
     {
         public abstract void Log(string Messsage);
     }
+    //Code Louisville Req (3/4)
     
     public class Logger : LogBase
     {

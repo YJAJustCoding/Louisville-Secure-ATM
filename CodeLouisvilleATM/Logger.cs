@@ -7,7 +7,7 @@ namespace CodeLouisvilleATM
     {
         public abstract void Log(string Messsage);
     }
-
+    
     public class Logger : LogBase
     {
 

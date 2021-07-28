@@ -23,14 +23,14 @@ namespace CodeLouisvilleATM
         public void Withdraw(int value)
         {
             //Allows you to withdraw all your money
-            if (Balance - value > -1 )
+            if (Balance - value > -1 && value > -1)
             {
                 Balance -= value;
                 Console.WriteLine($"Your Balance is now ${Balance} dollars");
             }
             else
             {
-                Console.WriteLine("You can't withdraw more money than you have.");
+                Console.WriteLine("1.You can't withdraw more money than you have \n2.Or a negative Number.");
             }
         }
 
@@ -53,21 +53,21 @@ namespace CodeLouisvilleATM
         //
         public void StockMarketInvesting(int value)
         {
-            if (Balance - value == 0)  
+            if (Balance - value == 0 && value > 0)  
             {
                 Balance = 0;
                 Console.Write($"And its gone your Balance is now ${Balance}");
             }
             
             // invest all but 1 dollar
-            else if (Balance - value > 0)
+            else if (Balance - value > 0 && value > 0)
             {
                 Balance -= value;
                 Console.WriteLine($"Your Balance is now ${Balance} dollars \nWe are so sorry for your loss Please Invest more!");
             }
             else
             {
-                Console.WriteLine("You can't Invest more money than you have.");
+                Console.WriteLine("1.You can't Invest more money than you have \nYou have to invest at least 1 dollar.");
             }
         }
     }

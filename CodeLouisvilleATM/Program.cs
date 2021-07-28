@@ -30,8 +30,7 @@ using System.Text;
 
                     case "2":
                         Console.WriteLine("How much would you like to withdraw?");
-                        //implement try catch
-             
+                              //implement try catch          
                             int moneyWithdrawn = Convert.ToInt32(Console.ReadLine());
                             Console.WriteLine($"You withdrew ${moneyWithdrawn}");
                             atm.Withdraw(moneyWithdrawn);

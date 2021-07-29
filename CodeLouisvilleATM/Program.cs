@@ -91,7 +91,7 @@ using System.Media;
                                 menu = false;
                                 break;
                             default:
-                                Console.WriteLine("Please choose option 1-5.");
+                                Console.WriteLine("Please choose option 1-5, Enter 6 to finish.");
                                 break;
                          }
             } while (menu) ;

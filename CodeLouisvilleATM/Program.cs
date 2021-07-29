@@ -1,20 +1,18 @@
 ﻿using System;
 using System.Text;
+using System.Media;
 
     namespace CodeLouisvilleATM
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             //User Login
             //Login UserLogin = new Login("CodeLou",9999);
             //bool ValidLogin = true;
-
-
-
-
-           //Keeps the menu going while true
+            //Keeps the menu going while true
             bool menu = true;
             //Initializes the ATM with $1000
             Atm atm = new Atm(1000);
@@ -34,11 +32,11 @@ using System.Text;
 
                 switch (menuChoice)
                 {
-                    case "1":
-                        atm.CheckBalance();
-                        break;
+                        case "1":
+                            atm.CheckBalance();
+                            break;
 
-                    case "2":
+                        case "2":
                         Console.WriteLine("How much would you like to withdraw?");
                         try
                         {  
@@ -69,8 +67,8 @@ using System.Text;
                                 var Log = new Logger();
                             Log.Log("Not a valid Deposit amount, please input a positive Integer");
                         }
-                }
-                                break;                        
+                        }
+                        break;                        
                             case "4":
                                 Console.WriteLine("How much would you like to Invest?");
                         try
@@ -84,12 +82,12 @@ using System.Text;
                             var Log = new Logger();
                             Log.Log("Not a valid Investment amount, please input a positive Integer");
                         }
-                                break;
+                        break;
                     case "5":
                         atm.InvestAllMoneyInStockMarket();
-                        break;
+                            break;
 
-                    case "6":
+                        case "6":
                                 menu = false;
                                 break;
                             default:

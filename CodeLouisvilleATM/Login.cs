@@ -8,7 +8,8 @@ namespace CodeLouisvilleATM
 {
     public class Login
     {
-        public string Username { get; set; }
+
+    public string Username { get; set; }
 
         public int Pin { get; set; }
 

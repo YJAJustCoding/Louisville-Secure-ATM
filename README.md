@@ -23,5 +23,7 @@ Implement a “master loop” console application where the user can repeatedly 
 Create an additional class which inherits one or more properties from its parent ✔
 
 Implement a log that records errors, invalid inputs, or other important events and writes them to a text file ✔
+(errors are logged in CodeLouisvilleATM/Bin/Debug/log.txt![2021-07-29](https://user-images.githubusercontent.com/25806447/127527987-3a1fd209-823e-4ca8-a4e3-55018b97445d.png)
+
 
 Create 3 or more unit tests for your application ✔
